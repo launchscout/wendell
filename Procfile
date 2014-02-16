@@ -1,1 +1,1 @@
-web: bin/hubot -a campfire -n wendell
+web: hubot --adapter campfire --name wendell
