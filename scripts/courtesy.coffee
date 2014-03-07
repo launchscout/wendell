@@ -20,7 +20,7 @@ module.exports = (robot) ->
   robot.hear 'thank(s| you) ' + robot.name, (msg) ->
     sayThanks(msg)
 
-  robot.respond 'thank(s| you)', (msg) ->
+  robot.respond /thank(s| you)/, (msg) ->
     sayThanks(msg)
 
   sayThanks = (msg) ->
