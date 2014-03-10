@@ -19,7 +19,7 @@ set :deploy_via, :remote_cache
 # set :format, :pretty
 
 # Default value for :log_level is :debug
-set :log_level, :info
+# set :log_level, :info
 
 # Default value for :pty is false
 # set :pty, true
@@ -61,18 +61,7 @@ namespace :deploy do
   desc "Install necessary Node modules, then move them to the correct path"
   task :npm_install do
     on roles(:app), in: :sequence, wait: 5 do
-      release_path = fetch(:release_path)
-      execute "cd #{release_path} && npm install"
-      execute "mv #{release_path}/node_modules #{shared_path}/node_modules"
-    end
-  end
-
-  desc "Create symlink to shared Node modules"
-  task :npm_modules_make_symlink do
-    on roles(:app), in: :sequence, wait: 5 do
-      release_path = fetch(:release_path)
-      shared_path = fetch(:shared_path)
-      execute "ln -s #{shared_path}/node_modules #{release_path}/node_modules"
+      execute "cd #{release_path} && source /opt/boxen/env.sh; NODENV_VERSION=v0.10.21 npm install"
     end
   end
 
