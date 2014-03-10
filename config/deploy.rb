@@ -45,7 +45,7 @@ namespace :deploy do
 
       # If we've got a log file already, mark that a deployment occurred
       execute "if [ -e #{log_file} ]; then echo \"\n\nDeployment #{release_name}\n\" >> #{log_file}; fi"
-      
+
       # Start Hubot!
       execute "launchctl load -w /Users/gaslight/Library/LaunchAgents/co.gaslight.wendell.plist"
     end
@@ -69,5 +69,6 @@ namespace :deploy do
     invoke 'deploy:stop'
     invoke 'deploy:start'
   end
-end
 
+  after :publishing, 'deploy:restart'
+end
