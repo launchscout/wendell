@@ -10,6 +10,8 @@
 # Commands:
 #   hubot thank(s| you) - respond to kindness.
 #   thank(s| you) hubot - respond to kindness.
+#   h(ello|i) hubot - say hello
+#   hubot h(ello|i) - say hello
 #
 # Notes:
 #   Nothing special. Be nice ;)
