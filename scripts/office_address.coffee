@@ -19,5 +19,5 @@
 module.exports = (robot) ->
   robot.respond /office address/i, (msg) ->
     msg.reply "here you go:"
-    msg.paste "11126 KENWOOD RD STE C\nBLUE ASH OH 45242-1897"
+    msg.reply "11126 KENWOOD RD STE C, BLUE ASH OH 45242-1897"
 
