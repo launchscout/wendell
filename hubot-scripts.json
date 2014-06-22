@@ -3,9 +3,8 @@
   "shipit.coffee",
   "achievement_unlocked.coffee",
   "hackernews.coffee",
-  "wunderground.coffee",
   "beerme.coffee",
   "bees.coffee",
-  "buscemi.coffee",
+  "darksky.coffee",
   "catfacts.coffee"
 ]
