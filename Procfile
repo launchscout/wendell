@@ -1,1 +1,2 @@
-web: hubot --adapter campfire --name wendell
+web: hubot --adapter slack
+
