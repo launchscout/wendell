@@ -198,7 +198,8 @@ module.exports = (robot) ->
     msg.send msg.random pizzas
 
   robot.respond /pizza bomb/i, (msg) ->
-    sortedPizzas = pizzas.sort( -> 0.5 * Math.random() ).slice(1, 6)
+    randomSize = msg.random [2, 5, 8, 10, 15]
+    sortedPizzas = pizzas.sort( -> 0.5 * Math.random() ).slice(1, randomSize)
     for pizza in sortedPizzas
       msg.send pizza
 
