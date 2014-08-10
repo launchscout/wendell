@@ -29,6 +29,11 @@ pizzas = [
 ]
 
 module.exports = (robot) ->
-  regex = /pizza me/i
-  robot.hear regex, (msg) ->
+  robot.respond /pizza me/i, (msg) ->
     msg.send msg.random pizzas
+
+  robot.respond /pizza bomb/i, (msg) ->
+    sortedPizzas = pizzas.sort( -> 0.5 * Math.random() ).slice(1, 6)
+    for pizza in sortedPizzas
+      msg.send pizza
+
