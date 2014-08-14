@@ -26,5 +26,5 @@ quotes = [
 
 module.exports = (robot) ->
   robot.respond /sagan me/i, (msg) ->
-    msg.send msg.random quotes
+    msg.send "> #{msg.random quotes}"
 
