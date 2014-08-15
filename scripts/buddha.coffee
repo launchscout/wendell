@@ -31,7 +31,7 @@ module.exports = (robot) ->
   robot.respond /buddha bomb( (\d+))?/i, (msg) ->
     count = msg.match[2] || 5
     i = 0
-    while i < count
+    while i < count && quotes.length > 0
       index = Math.floor(Math.random() * quotes.length)
       quote = quotes.splice(index, 1)
       msg.send "> #{quote}"
