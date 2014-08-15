@@ -32,5 +32,7 @@ module.exports = (robot) ->
     count = msg.match[2] || 5
     i = 0
     while i < count
-      msg.send "> #{quotes[Math.floor(Math.random() * quotes.length)]}"
+      index = Math.floor(Math.random() * quotes.length)
+      quote = quotes.splice(index, 1)
+      msg.send "> #{quote}"
       i++
