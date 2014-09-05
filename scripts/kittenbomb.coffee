@@ -9,7 +9,7 @@
 #   kitten bomb - get many kitten 
 #
 # Author:
-#   cdmwebs
+#   heflinao 
 
 kittens = [
   'http://33.media.tumblr.com/238f42b125fe2dc26990588784580b43/tumblr_n2ukm980jV1tw5bhko1_500.gif',
