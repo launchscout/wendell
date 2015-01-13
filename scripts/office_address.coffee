@@ -17,7 +17,9 @@
 #   cdmwebs
 
 module.exports = (robot) ->
+  robot.respond /old office address/i, (msg) ->
+    msg.reply "here you go:\n\n    11126 KENWOOD RD STE C, BLUE ASH OH 45242-1897"
+
   robot.respond /office address/i, (msg) ->
-    msg.reply "here you go:"
-    msg.reply "11126 KENWOOD RD STE C, BLUE ASH OH 45242-1897"
+    msg.reply "here you go:\n\n    708 Walnut St Ste 400\n    Cincinnati OH 45202-2175"
 
