@@ -21,5 +21,5 @@ module.exports = (robot) ->
     msg.reply "here you go:\n\n    11126 KENWOOD RD STE C\n    BLUE ASH OH 45242-1897"
 
   robot.respond /office address/i, (msg) ->
-    msg.reply "here you go:\n\n    708 Walnut St Ste 400\n    Cincinnati OH 45202-2175"
+    msg.reply "here you go:\n\n    708 Walnut St Ste 500\n    Cincinnati OH 45202-2175"
 
