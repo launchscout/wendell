@@ -14,6 +14,6 @@
 #   cdmwebs
 
 module.exports = (robot) ->
-  robot.respond /dance @kenny/i, (msg) ->
-    msg.reply "http://i.imgur.com/JW7HIc8.gif"
+  robot.hear /dance @kenny/i, (msg) ->
+    msg.send "http://i.imgur.com/JW7HIc8.gif"
 
