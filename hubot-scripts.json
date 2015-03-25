@@ -2,7 +2,6 @@
   "redis-brain.coffee",
   "shipit.coffee",
   "achievement_unlocked.coffee",
-  "hackernews.coffee",
   "beerme.coffee",
   "catfacts.coffee",
   "darksky.coffee",
