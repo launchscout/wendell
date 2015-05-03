@@ -23,7 +23,8 @@
     "hubot": "^2.11.4",
     "hubot-scripts": "^2.5.16",
     "hubot-slack": "^3.3.0",
-    "xml2js": "^0.4.8"
+    "xml2js": "^0.4.8",
+    "hubot-dropcam": "cdmwebs/hubot-dropcam"
   },
   "engines": {
     "node": "^0.10.0"
