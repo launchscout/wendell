@@ -16,4 +16,3 @@
 module.exports = (robot) ->
   robot.hear /dance @?kenny/i, (msg) ->
     msg.send "http://i.imgur.com/JW7HIc8.gif"
-
