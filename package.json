@@ -19,7 +19,9 @@
     "hubot-slack": "~3.4.2",
     "xml2js": "~0.4.15",
     "hubot-dropcam": "git://github.com/cdmwebs/hubot-dropcam",
-    "hubot-darksky": "~1.0.2"
+    "hubot-darksky": "~1.0.2",
+    "hubot-scripts": "~2.16.2",
+    "underscore": "~1.8.3"
   },
   "engines": {
     "node": "0.10.x"
