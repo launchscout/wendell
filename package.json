@@ -1,6 +1,6 @@
 {
   "name": "hosted-hubot",
-  "version": "2.7.5",
+  "version": "2.8.0",
   "author": "GitHub Inc.",
   "keywords": [
     "github",
@@ -20,11 +20,13 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
-    "hubot": "^2.11.4",
-    "hubot-scripts": "^2.5.16",
-    "hubot-slack": "^3.3.0",
+    "hubot": "^2.17.0",
+    "hubot-slack": "~3.4.2",
     "xml2js": "^0.4.8",
-    "hubot-dropcam": "cdmwebs/hubot-dropcam"
+    "hubot-dropcam": "cdmwebs/hubot-dropcam",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-shipit": "~0.2.0",
+    "hubot-google-images": "~0.2.6"
   },
   "engines": {
     "node": "^0.10.0"

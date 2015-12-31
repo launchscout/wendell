@@ -1,1 +1,6 @@
-["hubot-dropcam"]
+[
+  "hubot-dropcam",
+  "hubot-redis-brain",
+  "hubot-shipit",
+  "hubot-google-images"
+]
