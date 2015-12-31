@@ -21,7 +21,8 @@
     "hubot-dropcam": "git://github.com/cdmwebs/hubot-dropcam",
     "hubot-darksky": "~1.0.2",
     "hubot-scripts": "~2.16.2",
-    "underscore": "~1.8.3"
+    "underscore": "~1.8.3",
+    "hubot-tell": "~1.2.4"
   },
   "engines": {
     "node": "0.10.x"
