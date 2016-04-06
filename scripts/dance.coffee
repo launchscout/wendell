@@ -30,4 +30,4 @@ module.exports = (robot) ->
     msg.send "http://i.imgur.com/YdI2gTn.gif"
 
   robot.hear /dance @?haley/i, (msg) ->
-    msg.send "http://i.imgur.com/wQJjukj.gif"
+    msg.send "http://i.imgur.com/92H3YUk.gif"
