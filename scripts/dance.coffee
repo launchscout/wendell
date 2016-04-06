@@ -28,3 +28,6 @@ module.exports = (robot) ->
 
   robot.hear /dance @?moorechris/i, (msg) ->
     msg.send "http://i.imgur.com/YdI2gTn.gif"
+
+  robot.hear /dance @?haley/i, (msg) ->
+    msg.send "http://i.imgur.com/wQJjukj.gif"
