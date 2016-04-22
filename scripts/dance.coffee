@@ -27,7 +27,7 @@ module.exports = (robot) ->
     msg.send "http://i.imgur.com/OzcYsOj.gif"
 
   robot.hear /dance @?moorechris/i, (msg) ->
-    msg.send "http://i.imgur.com/hkMCfqO.gif"
+    msg.send "http://i.imgur.com/58oEn0r.gif"
 
   robot.hear /dance @?haley/i, (msg) ->
     msg.send "http://i.imgur.com/e7iyxpw.gif"
