@@ -21,7 +21,10 @@ quotes = [
   "No one saves us but ourselves. No one can and no one may. We ourselves must walk the path.",
   "It is better to travel well than to arrive.",
   "You, yourself, as much as anybody in the entire universe, deserve your love and affection.",
-  "Just as treasures are uncovered from the earth, so virtue appears from good deeds, and wisdom appears from a pure and peaceful mind. To walk safely through the maze of human life, one needs the light of wisdom and the guidance of virtue."
+  "Just as treasures are uncovered from the earth, so virtue appears from good deeds, and wisdom appears from a pure and peaceful mind. To walk safely through the maze of human life, one needs the light of wisdom and the guidance of virtue.",
+  "You will not be punished for your anger, you will be punished by your anger.",
+  "We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves.",
+  "Peace comes from within. Do not seek it without."
 ]
 
 module.exports = (robot) ->
