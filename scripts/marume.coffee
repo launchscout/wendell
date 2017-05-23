@@ -2,7 +2,7 @@
 #   Gifs of maru, inspired by pugme
 #
 # Dependencies:
-#   None
+#   "xml2js": "^0.4.8"
 #
 # Configuration:
 #   None
@@ -22,13 +22,9 @@ getMarus = (count, message) ->
       unless err?
         message.send image['$']['SRC'] for image in data['HTML']['IMG']
 
-cacheBustedUrl = (iter) ->
- "http://marume.herokuapp.com/random.gif?#{iter}-#{Date.now()}"
-
 module.exports = (robot) ->
-
   robot.respond /quantum( of)? maru/i, (message) ->
-    message.send cacheBustedUrl(1)
+    message.send "http://marume.herokuapp.com/random.gif?#{Date.now()}"
 
   robot.respond /maru me/i, (message) ->
     getMarus(1, message)
