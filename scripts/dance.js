@@ -8,10 +8,7 @@
 //   None.
 //
 // Commands:
-//   dance @kenny - show a dancing Kenny Glenn!
-//   dance @joel - show a dancing Uncle Joel!
-//   dance @katherine - show a dancing Katherine!
-//   dance @moorechris - show a dancing Moore Chris!
+//   dance haley - show a dancing Haley!
 //
 // Author:
 //   cdmwebs
