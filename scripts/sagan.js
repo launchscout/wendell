@@ -6,7 +6,6 @@
 //
 // Commands:
 //   sagan me - get a carl sagan quote
-//   pizza bomb - get many pizza
 //
 // Author:
 //   cdmwebs
