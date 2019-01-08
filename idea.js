@@ -8,10 +8,10 @@ module.exports = robot =>
   robot.respond(/.*needs? a.* idea/i, message => getStartupIdea(message))
 ;
 
-var getStartupIdea = msg =>
-  msg.http("http://itsthisforthat.com/api.php?json")
+var getStartupIdea = message =>
+  message.http("http://itsthisforthat.com/api.php?json")
     .get()(function(err, res, body) {
       const json = JSON.parse(body);
-      return msg.send(`How about: ${json["this"]} for ${json["that"]}?`);
+      return message.send(`How about: ${json["this"]} for ${json["that"]}?`);
   })
 ;

@@ -44,4 +44,4 @@ const gobs = [
 ];
 
 module.exports = robot =>
-  robot.hear(/gob it/i, message => msg.send(msg.random(gobs)))
+  robot.hear(/gob it/i, message => message.send(message.random(gobs)))

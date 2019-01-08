@@ -11,7 +11,7 @@ const validations = [
   "http://i.imgur.com/jdIgXtN.gif"
 ];
 
-const validation = msg => msg.send(msg.random(validations));
+const validation = message => message.send(message.random(validations));
 
 module.exports = robot => {
   robot.hear(/validate me/i, message => validation(message))
