@@ -13,6 +13,6 @@ const validations = [
 
 const validation = msg => msg.send(msg.random(validations));
 
-module.exports = robot =>
-  robot.hear(/validate me/i, msg => validation(msg))
-;
+module.exports = robot => {
+  robot.hear(/validate me/i, message => validation(message))
+}

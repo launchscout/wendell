@@ -5,7 +5,7 @@
 //   hubot I need an idea
 module.exports = robot =>
 
-  robot.respond(/.*needs? a.* idea/i, msg => getStartupIdea(msg))
+  robot.respond(/.*needs? a.* idea/i, message => getStartupIdea(message))
 ;
 
 var getStartupIdea = msg =>
