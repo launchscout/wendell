@@ -1,2 +1,8 @@
-module.exports = robot =>
-  robot.hear(/.*tim.*\:taco\:.*/i, message => message.send('@Ben#2701 :antitaco: :antitaco: :antitaco:'))
+module.exports = robot => {
+  robot.hear(/.*Tim(.*)/i, res => {
+    if (res.match[1].match(/.*🌮.*/)) {
+      res.send('@Ben#2701 :taco: :taco: :taco:')
+    }
+
+  })
+}
