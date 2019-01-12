@@ -18,7 +18,7 @@ module.exports = robot => {
     return msg.send('https://mtgcardsmith.com/view/complete/full/2018/9/15/1537037410352905.png')
   })
 
-  robot.hear(/\blearn the rules\b/i, (msg) => {
+  robot.hear(/\blearn ((the)|(your)) rules\b/i, (msg) => {
     return msg.send('http://gph.is/1hbfQyK')
   })
 }
